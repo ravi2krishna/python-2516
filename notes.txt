@@ -112,3 +112,16 @@
         -> Java Learning Curve is HIGH (Proto Type - 6 Months)
 
         -> Python Learning Curve is EASY (Proto Type - 6 Weeks)
+
+17th July
+=========
+
+    -> Setup Python Environment
+
+        -> Setup Python Interpreter (Run Python Code)    
+
+        -> IDE (Integrated Development Environment) - VS CODE
+
+        -> Git Bash (Version Controlling) (Tracking Source Code) (Client Software)
+
+        -> Setup GitHub Account (Store Code) (Service Provider)
