@@ -1,0 +1,114 @@
+15th July
+=========
+
+    -> Full Stack Courses
+
+    -> Cloud / DevOps
+
+    -> Data Analytics / DS / ML / AI / DE etc
+
+    -> CORE PYTHON (30 Days)
+
+        -> Full Stack Courses --> SQL, Django etc
+
+        -> Cloud / DevOps     --> Boto3 (Python Framework)
+
+        -> Data Analytics / DS / ML / AI / DE etc (Numpy, Pandas, etc )
+    
+    -> What is Python ?
+
+        -> Object Oriented Programming Language (Interpreted)
+
+        -> High Level Language
+
+        -> Scripting Language
+
+        -> etc
+
+    -> Language ?
+
+        -> Communication (Words, Writing, Speech, Gestures etc)  
+
+            -> Regions(South India - North India - East Of India) (Culture)
+
+                -> Hindi, Telugu etc
+            
+    -> Programming Language ?
+
+        -> Machines cannot understand Languages like English, Hindi etc
+
+        -> Machines know only Binary Language (011101111)
+
+        -> User will Communicate with a computer using Programming Language
+
+    ->  A programming paradigm is a relatively high-level way to conceptualize 
+        and structure the implementation of a computer program. 
+            -> Imperative, Declarative, Object-Oriented, Functional etc
+    
+    -> NOTE: Python is a multi paradigm Programming Language 
+
+    -> Imperative - How To do a task  (Python, Java, C etc)  
+
+    -> Declarative - What To do (SQL, CSS, Python etc)  
+
+    -> Functional - Everything is functions(Haskell, Lisp, Python etc)
+
+        -> Lambda Expressions, Higher Order Functions etc
+    
+    -> Object Oriented - Taking real world objects and represent them in programs
+
+    -> Scripting -  A scripting language is a programming language 
+        designed to automate tasks (DevOps & Cloud)
+
+
+    -> 01010000 01111001 01110100 01101000 01101111 01101110 (Low Level)
+
+    
+    -> Indentation
+
+        -> { } [ ] ( ) ; Other programming languages
+
+        -> Space 
+    
+    -> Java Program to add two numbers
+
+        class AddNumbers {
+            public static void main(String [] args) {
+                public int num1 = 10;
+                public int num2 = 20;
+                int sum = a+b;
+            }
+        }
+    
+    -> Python Program to add two numbers
+        
+        num1 = 10
+        num2 = 20
+        sum = a+b
+    
+    -> Java (Static Typed -- You need to tell before hand what datatype to apply )  
+        
+        String brandName = "The Indian Garage Co";
+        double ratings = 4.2;
+        int size = 34;
+
+    -> Python (Dynamic Typed -- You don't need to tell before hand what datatype to apply )
+        
+        brand_name = "The Indian Garage Co"
+        ratings = 4.2
+        size = 34
+
+        print(f"Brand is {brand_name}")
+        print(f"Ratings are {ratings}")
+        
+        NOTE: Applied On Object Level
+    
+    -> Java vs Python
+
+        -> Java is Fast (Compiled Language) 
+
+        -> Python is Slow (Interpreted Language) (Line By Line) 
+
+        -> Java Learning Curve is HIGH (Proto Type - 6 Months)
+
+        -> Python Learning Curve is EASY (Proto Type - 6 Weeks)
