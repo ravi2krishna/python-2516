@@ -125,3 +125,61 @@
         -> Git Bash (Version Controlling) (Tracking Source Code) (Client Software)
 
         -> Setup GitHub Account (Store Code) (Service Provider)
+
+19th July
+=========
+
+    -> Two Modes To Execute Python Code
+
+        -> Script Mode (In real time)
+
+            -> IDE 
+
+        -> Interactive / Command Line Mode
+
+            -> Python Interpreter   
+
+    -> Keywords
+
+        -> predefined reserved word that have special
+        meaning to python Interpreter
+
+        -> There are 35 keywords in python
+
+        -> https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+    -> Variables 
+
+        -> To Store Data  
+
+        -> All the Variables will be stored in memory  
+
+    -> DataTypes
+
+        -> To Store Different types of data we have Different
+        DataTypes   
+    
+    -> Any sort of Variables we create, we have rules
+
+    -> Identifer rules
+
+        -> Can Contain
+            -> Letters(A-Z or a-z)
+            -> Digits(0-9)
+            -> UnderScore(_)
+        -> Must Start with
+            -> A letter 
+            -> UnderScore
+        -> Cannot start with digit
+        -> Cannot be Python Keyword(imp0rt, class)  
+        -> Identifers are case sensitive(Name, name, NAME)
+
+    -> We can use type() to know what datatype 
+    we are working with
+
+    -> We can use id() to know what is the memory address
+    of Variables/Data (object)
+
+    -> Output Variables
+
+        -> print()
