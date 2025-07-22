@@ -161,7 +161,7 @@
     
     -> Any sort of Variables we create, we have rules
 
-    -> Identifer rules
+    -> Identifier rules
 
         -> Can Contain
             -> Letters(A-Z or a-z)
@@ -172,7 +172,7 @@
             -> UnderScore
         -> Cannot start with digit
         -> Cannot be Python Keyword(imp0rt, class)  
-        -> Identifers are case sensitive(Name, name, NAME)
+        -> Identifiers are case sensitive(Name, name, NAME)
 
     -> We can use type() to know what datatype 
     we are working with
@@ -183,3 +183,14 @@
     -> Output Variables
 
         -> print()
+
+22nd July
+=========
+
+    -> Concatenation - Joining the Strings using + operator
+
+    -> Interpolation - Replacing placeholders with Actual Values
+
+        -> Supports from Python 3 onwards
+        -> We use { } with f-strings(string formatted literals)
+ 
