@@ -193,4 +193,109 @@
 
         -> Supports from Python 3 onwards
         -> We use { } with f-strings(string formatted literals)
- 
+    
+    -> Variables 
+
+        -> To Store Data
+        -> To Retrieve Data 
+        -> To Manipulate Data (Operators)
+
+    -> Operators
+
+        -> Special Symbols, that perform operations on 
+            Variables & Values
+
+        -> Values : Operands
+        -> Symbols : Operators
+
+        -> Python has multiple types of Operators
+
+            -> Arithmetic Operators
+
+                -> + - * / % 
+                -> // - floor division 
+                    (same as division but round off answer to integer)
+                -> ** - exponentiation (for power calculations)
+
+            -> Compound Assignment Operators
+                -> Assignment Operator is =
+                -> Used for concise(short) form of writing Arithmetic operations
+                -> x = x + 5 or  x += 5
+
+                -> += -= *= /= %= //= **=
+
+                -> Like in java we have increment / decrement
+                    ++ --, this is not supported in python
+
+                -> In python we can use
+                    += 1 or -= 1
+
+            -> Comparison / Relational Operators
+
+                -> Used to compare values and determine if 
+                    the return value is True / False (boolean)
+
+                -> Primarily used with conditionals  
+
+                -> == (Equal To)   
+                -> != (Not Equal To)   
+                -> >
+                -> <
+                -> <=
+                -> >=
+
+            -> Logical Operators
+
+                -> Used to combine multiple conditions
+                -> Return value is True / False (boolean)
+
+                -> and 
+                -> or
+                -> not 
+
+                X       Y       X and Y    X or Y    not X    not Y
+                T       T           T         T         F       F
+                T       F           F         T         F       T
+                F       T           F         T         T       F
+                F       F           F         F         T       T      
+
+
+            -> Membership Operators
+
+                -> Used if a sequence is present 
+
+                -> in - returns true if specified input is in given sequence
+
+                -> not in - returns true if specified input is not in given sequence
+
+            -> Identity Operators
+
+                -> Used to compare objects on memory level
+                    we use == to compare values
+
+                -> is - returns true if both the objects are same
+
+                -> is not - returns true if both the objects are not same
+
+
+            -> Bitwise Operators
+
+                -> Used to perform Comparison on BINARY LEVEL(01)
+
+                -> Used in Embedded Systems, Network Programming, OS Level etc
+
+                -> AND(&) - Sets each bit to 1 if both bits are 1
+                -> OR (|)- Sets each bit to 1 if one of bits is 1
+                -> XOR (^) - Sets each bit to 1 if only one of the bits is 1
+                    i.e if both values are different then output is 1, 
+                        if both values are same then output is 0 
+                -> NOT(~ is tilde) - Invert the bits 
+                
+                -> << (Left Shift)
+                    -> Shift the bits to left, pushing zeros in from
+                        the right and let the leftmost bits fall off
+                -> >> (Right Shift)
+                    -> Shift the bits to right, pushing the left most bits 
+                        in from the left, so that rightmost bits fall off
+
+
