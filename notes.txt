@@ -299,3 +299,71 @@
                         in from the left, so that rightmost bits fall off
 
 
+24th July
+=========
+
+    -> Control Statements
+
+        -> Using Control Statements, we can control the flow
+        of program execution
+
+        -> We have following categories 
+
+            -> Conditional Statements (Decision Making Statements)
+            -> Looping Statements (Iteration Statements)
+            -> Branching Statements (Jump Statements)
+
+        -> Conditional Statements
+
+            -> Conditional Statements will output a boolean value
+            based on the condition determined
+
+            -> Indentation Rules
+
+                -> Use either spaces or tabs, but not both
+                    (python recommended is 4 spaces)
+
+                -> Make sure all the lines in same block, have same
+                Indentation level
+
+            -> input() -> predefined function in python, which can 
+            Interact with the users, by taking inputs 
+
+            -> Type Conversion 
+
+                -> Convert from one datatype to another datatype
+
+                -> Converting Smaller datatype to larger datatype
+                    considered SAFE OPERATION, (WIDENING)
+
+                -> It's AUTOMATICALLY handled by python    
+
+            -> Type Casting
+
+                -> Convert from one datatype to another datatype
+
+                -> Converting larger datatype to smaller datatype
+                    considered SAFE OPERATION, (NARROWING)
+
+                -> It's needs to handled by developer using casting methods
+                int() -> float() etc
+
+                -> Ternary Operator / Conditional Operator
+
+                    -> Allows yo to write concise form of if-else
+                        value_if_true if condition else value_if_false 
+
+            -> Types Of Conditional Statements
+
+                -> if Statement
+                    -> Executes a code block, if condition is True
+                -> if-else Statement
+                    -> Executes one code block, if condition is True and
+                      Execute another code block, if condition is False  
+                -> elif ladder Statement
+                    -> Allows Multiple conditions to be checked
+                -> match-case (3.1+)
+                    -> Allows Multiple conditions to be checked 
+                
+                -> We can Use Nested Conditions as well, 
+                    inside a condition we can write more conditions
