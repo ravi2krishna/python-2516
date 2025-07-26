@@ -367,3 +367,32 @@
                 
                 -> We can Use Nested Conditions as well, 
                     inside a condition we can write more conditions
+
+26th July
+=========
+
+    -> Loops - Execute a block of code repeatedly, based on
+        a condition
+
+        -> When you want to repeat a task you rely on loops
+
+        -> Types Of Loops 
+
+            -> while loop - runs a block of code, as long as 
+                the condition is True
+
+            -> for loop - used to Iterate over a sequence
+                (strings, lists, tuples etc) 
+
+                -> you can use for loop when you know number
+                    of Iterations before hand
+            
+            -> Nested Loops - Loop inside another loop
+
+    -> Branching Statements (Jump Statements)         
+
+        -> break - stop the execution of loop / terminate  the loop
+
+        -> continue - used to skip the current Iteration
+
+        -> pass - does nothing, used as a placeholder for future code
