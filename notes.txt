@@ -396,3 +396,55 @@
         -> continue - used to skip the current Iteration
 
         -> pass - does nothing, used as a placeholder for future code
+
+29th July
+=========
+
+    -> Variables, DataTypes, Operators, Conditionals, Loops, Branching Statements
+
+    -> variable = 10
+    -> multiple_values = 10 20 30 incorrect     
+
+    -> Collections - Sequence Of Data which will hold multiple
+    elements in a single Variable
+
+    -> Basic Collection type is String
+
+    -> Advanced Collection types
+
+        -> Lists
+        -> Tuples
+        -> Dictionaries
+        -> Sets
+
+    -> Strings
+
+        -> A sequence of characters enclosed in
+            '' or "" or """
+
+            """ -> not recommended for single line strings
+    
+    -> Python uses indexing for accessing individual characters
+
+        -> We have Positive indexing (Left To Right)
+        -> We have Negative indexing (Right To Left)
+
+            0  1  2  3  4  5 (positive)
+            p  y  t  h  o  n 
+           -6 -5 -4 -3 -2 -1 (negative)
+        
+        -> Accessing index outside defined range causes
+            IndexError: string index out of range
+        
+    -> Slicing - To access a range of characters inside
+        the string
+
+        (range) -> start, stop, step
+
+        Slicing -> start, stop, step
+
+    -> String Immutability
+
+        -> Data once defined, cannot be changed
+
+        -> 
