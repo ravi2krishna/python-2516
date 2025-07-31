@@ -142,3 +142,4 @@ valid_pan_number = pan_number.isalnum()
 fomart_valid_pan_number = pan_number.upper()
 print(fomart_valid_pan_number)
 
+
