@@ -1,7 +1,7 @@
 # LMS Grade Tracker in Python
 
 # Prompt Student For Input Details
-student_id = int(input("Enter Your ID: "))  # Read integer input
+student_id = input("Enter Your ID: ")  # Read integer input
 student_name = input("Enter Your Name: ")  # Read string input
 
 # Attendance updated by admin/trainer
