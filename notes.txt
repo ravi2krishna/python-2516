@@ -446,3 +446,104 @@
     -> String Immutability
 
         -> Data once defined, cannot be changed
+
+2nd Aug
+=========
+
+-> Collections
+
+-> Variable - Storing one value at a time 
+
+    -> num = 10
+
+-> Collection - Storing more than one value at a time 
+
+    -> nums = 10,20,30,40,50
+
+        -> nums is an object of tuples class    
+
+-> Python provides following classes to handle multiple values at a time
+
+    -> Lists
+    -> Tuples
+    -> Dictionaries
+    -> Sets
+
+-> Data Structure - It's way to organize and store data, so that you can
+    efficiently access and modify the data
+
+-> Lists
+
+    -> In python, Lists are built in data structure that allows tp store multiple 
+    values in a single variable using [] (square brackets)
+
+    -> we can also create lists using class list
+
+    -> LIST is one of the widely used data structure
+
+    -> list_nums = [10,20,30,40,50]
+    -> list_nums = list([10,20,30,40,50])
+
+-> Accessing Data in Lists
+
+    -> Each element inside list has index just like 
+    strings and index starts from zero (0)
+
+    -> Both Positive and Negative Indexes 
+
+    -> We can use same Indexing and Slicing, from strings
+
+    -> if we access index out of range, Index IndexError
+
+    -> List Supports 11 methods for performing operations
+        with list data
+
+5th Aug
+=========
+
+-> List Methods
+
+    -> continue
+
+-> Key Characteristics of Lists
+
+    -> Ordered - Items are stored in order, and order is preserved
+
+    -> Mutable - You can change data (append(), remove())
+
+    -> Duplicates - Allowed 
+
+-> Tuples
+
+    -> In python, Tuples are built in data structure that allows tp store multiple 
+    values in a single variable using () (parentheses)
+
+    -> Tuples are IMMUTABLE, data cannot be changed
+
+    -> Tuples are READ ONLY DATA (Static means doesn't change) 
+
+    -> we can also create tuples using class tuple
+
+    -> Each element has a position, called index starts from 0, same as lists
+
+    -> Positive & Negative Indexing supported same as lists
+
+    -> Slicing is same as lists
+
+    -> Looping is same as Lists
+
+    -> Tuples operations
+
+        -> Tuples are IMMUTABLE, meaning no modifications, only Accessing
+
+        -> Tuples support only two operations i.e two methods
+
+-> Key Characteristics of Tuples
+
+    -> Ordered - Items are stored in order, and order is preserved
+
+    -> IMMUTABLE - You cannot change data
+
+    -> Duplicates - Allowed         
+
+    -> NOTE - Use Tuples when you want Data Safety i.e fixed data
