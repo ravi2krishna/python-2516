@@ -547,3 +547,70 @@
     -> Duplicates - Allowed         
 
     -> NOTE - Use Tuples when you want Data Safety i.e fixed data
+
+7th Aug
+=========
+
+-> Dictionaries
+
+-> In python, Dictionaries are built in data structure that allows to store multiple 
+    set of key & values in a single variable using { } (curly braces)
+
+-> Key Value Pairs (item)
+
+-> No INDEXING and No SLICING -> No concept of index in dict
+
+-> As we use key & values
+
+    -> Keys can be IMMUTABLES (tuples, strings, numbers)
+    -> Values can be any object
+
+    -> if we give keys as mutable, we get TypeError: unhashable type:
+
+    -> We cannot use list as key in dict
+    -> we cannot use list as a set elements
+
+    -> 90% of the time keys will be Strings
+
+-> Dictionaries operations
+
+-> Key Characteristics of Dictionaries
+
+    -> Ordered - Items are stored in order, and order is preserved
+
+    -> MUTABLE - You can change data (update,pop etc)
+
+    -> Duplicates - Allowed for values, 
+        but for keys NOT allowed, if we give duplicate Key
+        it will not give error, rather it updates
+
+    -> NOTE: Keys can only be Immutables, whereas values can be
+        any object 
+
+    -> NOTE - Use top store data based on key values
+
+-> Sets
+
+-> In python, Sets are built in data structure that allows to store multiple 
+    values in a single variable using { } (curly braces)
+
+-> In sets we don't have keys like Dictionaries, only values
+
+    -> dict = {1:10,2:20}
+    -> set = {1,10,2,20} -> {10,20,1,2}
+
+-> Set are UUU 
+
+    -> U - Unique (No Duplicates, Duplicates will be removed)
+    -> U - Unorderd (Insertion Order Not Preserved)
+    -> U - Unindexed (No Index, So NO INDEXING & NO SLICING)
+
+    -> SETS - used to perform Set related mathematical operations
+
+    -> Union
+    -> Intersection
+    -> Difference 
+    -> Symmetric Difference
+
+
+    
