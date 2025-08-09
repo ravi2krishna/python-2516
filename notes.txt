@@ -613,4 +613,31 @@
     -> Symmetric Difference
 
 
-    
+9th Aug
+=========
+
+-> Set operations
+
+-> Sets have 17 methods 
+
+-> FrozenSet
+
+    -> Regular Set is Mutable (Can be Changed)
+    -> FrozenSet is Immutable (Cannot be Changed)
+
+    -> FrozenSets only support set specific operations
+
+
+-> Key Characteristics of Sets
+
+    -> UnOrdered - Items are not stored in order, and order is not preserved
+
+    -> MUTABLE - You can change data
+
+    -> Duplicates - Not Allowed         
+
+    -> NOTE - When you need Uniqueness in data go for sets
+
+    NOTE- IMMUTABLE version of set is FROZENSET use frozenset class
+
+
