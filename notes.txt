@@ -641,3 +641,22 @@
     NOTE- IMMUTABLE version of set is FROZENSET use frozenset class
 
 
+-> Database operations
+
+    -> CRUD - Create / Read / Update / Delete 
+
+        -> In future w.r.t Databases you can perform them using Web Applications
+
+        -> Now we are going to use Console Based Programs to achieve same
+
+    -> LMS (Student - Trainer - Course - etc)   
+
+        -> We want all our data structures to be implemented using LMS Applications
+
+            -> Lists - Scores
+            -> Tuples - ?
+            -> Dictionaries - student 
+            -> Sets - Skills
+
+        -> Student (ID,Name,Scores,Skills)
+
