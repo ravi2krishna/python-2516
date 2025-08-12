@@ -660,3 +660,9 @@
 
         -> Student (ID,Name,Scores,Skills)
 
+12th Aug
+=========
+
+    -> Student Management System Using Data Structures
+    
+            -> Implementing CRUD like operations using Console Based
