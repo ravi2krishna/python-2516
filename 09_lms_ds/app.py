@@ -89,6 +89,40 @@ while True:
         
     elif choice == "4":
         print("Performing Operation 4")
+        # id - student_id
+        # skills 
+        # scores
+        # students
+        if not students:
+            print("No Students Available")
+        else:
+            print("="*50)
+            print("Students Details")
+            print("="*50)
+            
+            for sid, data in students.items():
+                name = data["name"]
+                scores = data["scores"]
+                
+                if scores:
+                    avg = sum(scores)/len(scores)
+                else:
+                   avg = 0
+                
+                if scores:
+                    top_score = max(scores)  
+                else:
+                    top_score = 0    
+                
+                skills = data["skills"]
+                print(f"ID: {sid}")
+                print(f"Name: {name}")
+                print(f"Scores: {scores}")
+                print(f"Average Score: {avg}")
+                print(f"Top Score: {top_score}")
+                print(f"Skills: {skills}")
+                print(f"Skills Count: {len(skills)}")
+
     elif choice == "5":
         print("Performing Operation 5")
         break
