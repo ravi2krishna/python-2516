@@ -125,6 +125,11 @@ while True:
 
     elif choice == "5":
         print("Performing Operation 5")
+        print("="*50)
+        print("Contact Admin For Further Queries")
+        print(f"Admin Contact: {ADMIN_INFO[1]}")
+        print(f"Admin Email: {ADMIN_INFO[0]}")
+        print("="*50)
         break
     else:
        print("Invalid Choice Only (1-5) available") 
