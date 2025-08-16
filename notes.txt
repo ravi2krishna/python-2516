@@ -670,4 +670,68 @@
 16th Aug
 =========
 
-    -> 
+-> Functional Based Programming
+
+    -> Functions - function is a block of code which performs some tasks or Applications
+
+    -> Functions can help break down complex problems into simpler and smaller 
+        manageable tasks
+    
+    -> You can call a function, multiple times, which avoids code repetition
+        and helps you get code reusability
+
+    -> functions syntax
+
+        def function_name():
+            Statements    
+
+    -> Functions With Parameters
+
+        -> This approach allows your functions to take
+            Dynamic inputs 
+        
+    -> Based on arguments passed, we have different types of functions
+
+        -> Positional Arguments 
+        -> Default Arguments  
+        -> Keyword Arguments    
+        -> Arbitrary Positional Arguments (*args)
+        -> Arbitrary Keyword Arguments (**kwargs)
+
+    -> Positional Arguments - The passed arguments to the function, should have 
+        exact order defined in function signature
+
+        -> Here positions will change functionality, if incorrectly used
+
+    -> Default Arguments  - Passing default values as the arguments to the functions
+
+        -> Default values will be overridden by values passed at the function call
+
+        -> Once start adding a default arguments, the next preceding values should be 
+            default only not other types
+
+            # SyntaxError: non-default argument follows default argument
+        
+        -> Keyword Arguments - Arguments are passed by explicitly specifying the
+            name, so function call is based on name of the argument
+
+            -> order doesn't matter anymore, as keys are passed based on names
+
+            -> Improves code readability, and avoids confusion, when we have multiple 
+                Parameters 
+
+            -> Next all the  preceding values should be of same type not other types  
+
+        ->  Arbitrary Positional Arguments (*args)  
+
+            Arbitrary means random / unknown
+
+            -> These functions will accept any number of Positional based arguments
+
+            -> All values will be Collected into a tuple
+
+        -> Arbitrary Keyword Arguments (**kwargs)     
+
+            -> These functions will accept any number of Keyword based arguments
+
+            -> All values will be Collected into a Dictionary
