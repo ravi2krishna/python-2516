@@ -751,4 +751,26 @@
 -> You can have multiple return Statements, but the Logic
     should be appropriate
 
-    
+
+-> Scope Of Variables Within Functions
+
+    -> Scope - where in the code, a variable can be used 
+        or not
+
+    -> Local Scope
+
+        -> A Local variable declared inside a function
+        -> It only exists while the function runs
+        -> You cannot use them outside the function
+
+    -> Global Scope  
+
+        -> A Global variable is declared outside the function
+        -> It can be used anywhere in code, inside or outside
+            functions
+        -> As globals variables can be accessed within Functions
+            and there can be a name conflict, in that case
+            Local variables get first preference inside functions
+        -> You cannot change global variables(read only by default)      
+        -> If you want them to change inside function, then we need
+            to use a special keyword called global

@@ -165,3 +165,51 @@ def math_new(a,b,opr):
 print(math_new(3,4,"+"))    
 print(math_new(3,4,"*"))
 print(math_new(3,4,"'"))   
+
+# Local Scope for variables
+def add():
+    # local variables are bb and cc
+    bb = 5
+    cc = 6
+    print(bb) # accessing inside function
+    print(cc) # accessing inside function
+add()
+
+# print(bb) # accessing outside function
+
+
+# parameters passed to functions are also local variables
+def add(bb,cc): # local variables are bb and cc 
+    print(bb)
+    print(cc)
+add(10,20)
+# print(bb) # accessing outside function
+
+# global variable
+aa = 30
+def add(bb,cc): # local variables are bb and cc 
+    print(bb) # accessing local variable inside function
+    print(cc) # accessing local variable inside function
+    print(aa) # accessing global variable inside function
+add(1,2)    
+print(aa) # accessing global variable outside function
+
+# global variable
+aa = 30
+def add(bb,cc,aa): # local variables are bb and cc 
+    print(bb) # accessing local variable inside function
+    print(cc) # accessing local variable inside function
+    print(aa) # accessing local variable inside function
+    print(globals()['aa']) # accessing global variable when name conflict
+add(1,2,3)    
+print(aa) # accessing global variable outside function
+
+# Trying to change global variable
+count = 0
+def increment():
+    # count += 1 # local variable 'count' referenced before assignment
+    global count
+    count += 1 
+increment()    
+print("Count: ",count)
+    
