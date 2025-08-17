@@ -735,3 +735,20 @@
             -> These functions will accept any number of Keyword based arguments
 
             -> All values will be Collected into a Dictionary
+
+17th Aug
+=========
+
+-> Return keywords is used in functions to give 
+    appropriate response when function is called
+
+-> Generally return should be the last Statement, inside
+    the function execution
+
+-> If we are using multiple return Statements sequentially
+    the first return will be executed, not the others
+
+-> You can have multiple return Statements, but the Logic
+    should be appropriate
+
+    

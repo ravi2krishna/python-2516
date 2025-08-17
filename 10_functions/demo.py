@@ -127,3 +127,41 @@ cred_trans_new(1000,3000,5000,name="Ravi",email="ravi@gmail.com")
 def new_fun(name, **info):
     pass
     
+# functions without return keyword
+def add(a,b):
+    a+b
+print(add(10,20))
+
+# functions with return keyword
+def add(a,b):
+    return a+b
+print(add(10,20))
+
+# when using return, give appropriate responses
+def add(a,b):
+    return "Hello there"
+print(add(10,20))
+
+def new_math(a,b):
+    return a+b
+    return a-b
+    return a*b
+
+print(new_math(100,200))
+
+def math_new(a,b,opr):
+    if opr == "+":
+        return a+b
+    elif opr == "-":
+        return a-b
+    elif opr == "*":
+        return a*b
+    elif opr == "/":
+        return a/b
+    else:
+        return "Invalid Operator"
+    print("Code is Unreachable") 
+
+print(math_new(3,4,"+"))    
+print(math_new(3,4,"*"))
+print(math_new(3,4,"'"))   
