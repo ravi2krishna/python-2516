@@ -822,3 +822,51 @@
         -> IILE - Immediately Invoked Lambda Functions         
 
 
+19th Aug
+=========
+
+-> Core Idea Of Functional Programming
+
+    -> Just like lambda functions, functions that take another function as an argument
+
+    -> We use higher order functions
+
+        -> map
+        -> filter
+        -> reduce
+
+    -> We want to write concise code, without using lengthy code like custom loops
+
+
+    -> map - Used to applying a function on each item in the iterable 
+
+        -> earlier we used some for loop and performed operations
+
+        -> syntax 
+
+            map(function, iterable)
+
+        -> Think of map() as - Do this for every item in the iterable
+
+    
+    -> filter - Used to applying a function on each item in the iterable with a condition
+
+        -> earlier we used some for loop with condition and performed operations
+
+        -> syntax 
+
+            filter(function, iterable)
+        
+         -> Think of filter() as - Keep Only items, where the condition is met
+
+    -> reduce -  used to reduce an iterable to single value, applying the function
+        cumulatively 
+
+            -> syntax 
+
+            reduce(function, iterable)
+
+        -> reduce is a part of module (functools), so we need to import before using it 
+
+
+
