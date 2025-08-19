@@ -213,3 +213,45 @@ def increment():
 increment()    
 print("Count: ",count)
     
+# function composition
+def add(a,b):
+    return a+b    
+
+def sub(c,d,e):
+    return add(c,d) - e
+
+print(sub(3,4,5))
+
+# to check builtins in python use __builtins__
+# print(dir(__builtins__))
+
+# builtin
+text = "python"
+len_text = len(text)
+print("Using Builtin",len_text)
+
+# simulate len with our way
+def user_def_ln(s):
+    count = 0
+    for char in s:
+        count += 1
+    return count
+
+text = "python"
+len_text = user_def_ln(text)
+print("Using User Defined",len_text)
+
+
+# without lambda
+def add(a,b):
+    return a+b
+print(add(3,4))
+
+# with lambda -> lambda arguments: expression    
+sum = lambda a,b: a+b
+print(sum)
+print(sum(5,10))
+
+# IILE
+print((lambda a,b: a+b) (100,200))
+print((lambda a,b: a*b) (100,200))

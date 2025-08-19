@@ -774,3 +774,51 @@
         -> You cannot change global variables(read only by default)      
         -> If you want them to change inside function, then we need
             to use a special keyword called global
+
+    -> Function Composition
+
+        -> Function calling another function for reusability
+
+-> Types Of Functions
+
+    -> Built In Functions
+
+        -> Functions which are already pre built into python
+
+        -> No need to define them, they are ready to use
+
+            -> print() -> display output
+            -> id() -> display object address
+            -> input() -> take user input
+            -> len() -> number of elements
+            -> max() -> give largest element
+            -> etc
+
+    -> User Defined Functions
+
+        -> Functions that your create by yourself, based on 
+            requirements using def keyword
+
+        -> Whatever we did so far are user defined functions    
+
+    -> Lambda Functions (Anonymous Functions)
+
+        -> Lambda functions are One line functions
+
+        -> NOTE - Used only for Single line Expressions
+
+        -> We use lambda keyword, and result of the Expression
+            is automatically returned 
+        
+        -> Mainly used for tasks, when passing a function 
+            as an argument
+
+        -> syntax
+
+            lambda arguments: expression    
+
+            NOTE: arguments cab ne multiple, but only one line expression
+
+        -> IILE - Immediately Invoked Lambda Functions         
+
+
