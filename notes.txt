@@ -885,3 +885,44 @@
             print("6 - Exit System")  
 
             -> NOTE - Use lambda based approach 
+
+-> Modules
+
+    -> A module is a python file, that contains
+
+        -> variables
+        -> Statements
+        -> functions
+        -> classes 
+        -> etc
+    
+    -> This approach allows reusability, across multiple programs
+        by importing the module, rather than rewriting again
+
+    -> Mainly for
+
+        -> Reusability
+
+        -> Better Code organize
+
+    -> Types Of Modules
+
+        -> Built In Modules
+
+            -> Comes with python installation
+
+        -> User Defined Modules
+
+            -> Created By Users, based on their requirements
+
+        -> External Modules 
+
+            -> Developed By Communities, Third party vendors
+
+            -> We need a tool called pip for working with
+                External modules (pip - python package manager)
+
+
+
+
+
