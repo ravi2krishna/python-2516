@@ -869,4 +869,19 @@
         -> reduce is a part of module (functools), so we need to import before using it 
 
 
+    -> TASK - Rewrite the LMS DS App with below implementation
 
+        -> if choice == "1":
+            add_student()
+
+        -> if choice == "2":
+            update_student()
+        
+        -> Implement a new option to work a search criteria, where search students 
+            should displayed based if has that skill
+
+            print("4 - List All Students")
+            print("5 - Search")    
+            print("6 - Exit System")  
+
+            -> NOTE - Use lambda based approach 
