@@ -1,0 +1,3 @@
+Hello Everyone
+Welcome To Python
+We are working with file handling

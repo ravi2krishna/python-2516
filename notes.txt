@@ -943,6 +943,22 @@
 
 
 
+-> File & Directory Management
+
+    -> File operations
+
+        -> Create
+        -> Read 
+        -> Update
+        -> Delete
+
+    -> Earlier all the programs data is non-persistent (RAM)
+
+        -> non-persistent data - Temporary
+
+    -> Now i need the programs to save data (persistent data)
+
+        -> persistent data - Long Term Storage
 
 
 
