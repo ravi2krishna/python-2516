@@ -1,6 +1,6 @@
 # This is my custom user defined module
-name = "Edify"
-email = "edify@gmail.com"
+name = "John"
+email = "john@gmail.com"
 
 def add(a,b):
     return a+b

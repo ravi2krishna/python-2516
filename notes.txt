@@ -922,6 +922,26 @@
             -> We need a tool called pip for working with
                 External modules (pip - python package manager)
 
+21st Aug
+=========
+
+-> Modules Continued
+
+-> External Modules are available in pypi.org
+
+-> Packages 
+
+    -> For Reusability ( on folder level)   
+
+    -> Module - A single file, used file name 
+    -> Package - A folder with multiple modules - multiple .py files
+        use folder name
+
+    -> To create a package will create a file called 
+
+        __init__.py ( empty / start up configs )
+
+
 
 
 
