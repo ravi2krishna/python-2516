@@ -1,0 +1,11 @@
+{
+    "id": 101,
+    "name": "Ravi",
+    "course": "Python Full Stack",
+    "skills": [
+        "Python",
+        "Git",
+        "AWS"
+    ],
+    "score": 89.5
+}

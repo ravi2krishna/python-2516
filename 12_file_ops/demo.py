@@ -59,3 +59,76 @@ with open("data.txt","a") as file_new:
 # os module 
 import os
 os.remove("data.txt")
+
+# Working with csv files
+# read data
+import csv
+with open("sample_data.csv","r") as file_data:
+    csv_reader = csv.reader(file_data)
+    print(csv_reader)
+    for row in csv_reader:
+        # print(row)        
+# get the customers from hyderabad --> first priority ship products to hyd customers
+        # print("Hyderabad Customers")
+        # if row[3] == "hyderabad":
+        #     print(row)
+# get the customers for gmail  --> first priority ship products to hyd customers
+        if row[1].endswith("@gmail.com"):
+            print(row) 
+
+# DictReader --> gives the dictionary object
+with open("sample_data.csv","r") as file_data:
+    csv_reader = csv.DictReader(file_data)
+    print(csv_reader)
+    for row in csv_reader:
+        if row["email"].endswith("@gmail.com"):
+            print(row)
+            
+            
+# Now writing the data
+with open("write_data.csv","w") as file_data:
+    csv_writer = csv.writer(file_data)
+    csv_writer.writerow(['name','email','mobile','location'])
+    csv_writer.writerow(['ravi','ravi@gmail.com','9909090','hyd'])
+    csv_writer.writerows([['ravi','ravi@gmail.com','9909090','hyd'],['john','johnjohn@gmail.com','9909090','hyd']])
+      
+# Now appending the data              
+with open("write_data.csv","a") as file_data:
+    csv_writer = csv.writer(file_data)
+    csv_writer.writerows([['user1','user1@gmail.com','9909090','hyd'],['user2','user2@gmail.com','9909090','hyd']])
+    
+
+# Working with JSON Data
+import json
+student = {
+   "id": 101,
+   "name": "Ravi",
+   "course": "Python Full Stack",
+   "skills": ["Python", "Git", "AWS"],
+   "score": 89.5
+}
+
+print(type(student))
+# Now writing the data
+with open("student.json","w") as file_data:
+    json.dump(student, file_data, indent=4)
+
+# Now read the data
+with open("student.json","r") as file_data:
+    json_data = json.load(file_data)
+    print(json_data)
+    print(type(json_data))
+    print(json_data['name'])
+    print(json_data['skills'][0])
+    
+# Ops b/w Jon & Py Data
+# convert python json data to string data 
+student_json = json.dumps(student)
+print(student_json)
+
+# convert string data to json
+json_string = '{"id": 102, "name": "Anjali", "course": "Data Science"}'
+print(type(json_string))
+stu_data = json.loads(json_string)
+print(stu_data)
+print(type(stu_data))

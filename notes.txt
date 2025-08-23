@@ -960,5 +960,28 @@
 
         -> persistent data - Long Term Storage
 
+23rd Aug
+=========
 
+-> File Management with csv data
 
+    -> Python does provide csv module out of the box, we can perform operations on csv files
+
+    
+-> File Management with json data
+
+    -> Python does provide json module out of the box, we can perform operations on json files
+
+    -> Data exchange formats 
+
+        -> XML 
+        -> JSON
+        -> YAML  
+
+    -> JSON looks like a Dictionary in python
+
+        -> json.dump() - write json to file
+        -> json.load() - Read json from file
+
+        -> json.dumps() - covert python dict to string
+        -> json.loads() - covert string to python dict
