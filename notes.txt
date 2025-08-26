@@ -985,3 +985,28 @@
 
         -> json.dumps() - covert python dict to string
         -> json.loads() - covert string to python dict
+
+25th Aug
+=========
+
+-> Exception Handling
+
+    -> Exception : It's an ERROR, which occurs during Program Execution
+
+    -> When Python encounters an ERROR, its abruptly STOPS the Program.
+
+    -> To change above behavior, and handle the Exceptions by ourself we need following
+
+        -> try : used to keep the code that causes errors
+        -> except : used to keep the code that should run, when error occurs
+        -> else : Run if no Exceptions is raised in the try block
+        -> finally : Runs this code no matter what, if there is an Exception or Not, 
+            we want to run some piece of code always -> closing connections
+
+    -> We can define our own Exceptions, from already given base class (Exception)
+
+    -> In OOPS, we have Inheritance --> Inherits features from Base Class
+
+        -> Syntax : 
+            class UserDefinedException(Exception):
+                pass
