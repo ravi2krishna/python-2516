@@ -1010,3 +1010,79 @@
         -> Syntax : 
             class UserDefinedException(Exception):
                 pass
+
+
+-> Object Oriented Approach (OOPS)
+
+    -> Object Oriented Programming, we are structuring the code using data and behavior
+        using objects 
+
+    -> We we use OOPS ways of programming we get following benefits
+
+        -> Inheritance : Code Reusability
+        -> Polymorphism : Different behavior for single method or object
+        -> Encapsulation : Security for data 
+        -> Abstraction : Hiding the implementation (contract based programming)
+
+    -> To start with OOPS
+
+        -> classes
+        -> objects
+        -> Methods
+
+            -> Inheritance -> Polymorphism -> Encapsulation -> Abstraction
+
+    -> Class : Class is blueprint for Object
+
+        -> Laptop (Laptop has a keyboard, screen, weight )
+
+    -> Object : Instance(Real Entity) Of a class 
+
+        Object : Has characteristics and behavior
+
+        -> Mac Laptop (object) created from Laptop(class)
+
+            -> mac characteristics 
+                - screen: 13 inch
+                - weight: 600 gms
+            
+            -> mac behaviors
+                - can play video in 4k
+                - can play audio up to 30 watts 
+
+        -> Dell Laptop (object) created from Laptop(class)
+
+            -> dell characteristics 
+                - screen: 15.6 inch
+                - weight: 2.5 kgs
+            
+            -> mac behaviors
+                - can play video in 1080p
+                - can play audio up to 10 watts 
+
+
+    -> Object : Has characteristics and behavior
+
+        -> characteristics = variables / attributes
+        -> behaviors = methods(looks and works like functions) 
+
+    -> Class (Definition) -> Objects -> Data(Variables) -> Methods(To Act On Data)
+
+    -> Syntax
+
+        class ClassName:
+            pass
+        
+        object = ClassName()
+
+        class Laptop:
+            pass
+
+            def method(): # inside class
+                pass
+
+        mac = Laptop()
+        dell = Laptop()
+
+        def function(): # outside class
+            pass    
