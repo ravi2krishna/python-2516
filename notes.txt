@@ -1056,7 +1056,7 @@
                 - screen: 15.6 inch
                 - weight: 2.5 kgs
             
-            -> mac behaviors
+            -> dell behaviors
                 - can play video in 1080p
                 - can play audio up to 10 watts 
 
@@ -1086,3 +1086,86 @@
 
         def function(): # outside class
             pass    
+
+
+28th Aug
+=========
+
+-> NOTE : When we shift from functional style to OOPS style, this is one of the Common
+    confusion point
+
+-> NOTE : The default behavior in python
+
+    -> Python will automatically passes the object as first Parameter to method
+
+    -> That is called commonly referred to as self 
+
+    -> self refers to current object (student_obj)
+    -> python automatically passes, this object when you call a method on an object
+    -> NOTE : First Parameter for your method should be self 
+
+    -> this keyword in other programming languages is self in python
+
+    -> __init__ it's a special method in python (constructor)
+
+    -> It will automatically run, when a new object is created
+
+    -> We use to to initialize the objects data
+
+-> Instance Variables 
+
+    -> Instance Variables  Belong To Object 
+
+    -> Instance Variables are defined inside __init__ methods using self keyword
+
+    -> Each Object has it's own copy Instance Variable
+
+    -> Accessing Instance Variables is done using self.variable
+
+
+-> Instance Methods
+
+    -> Instance Methods operates on instance variables
+
+    -> Most common type of methods in OOPS style
+
+    -> Instance Method's first Parameter will always be self
+
+    -> Can access both instance and class variables
+
+    -> Calling is done using object --> object.method()
+
+-> Instance Variables + Instance Methods
+
+-> Class Variables
+
+    -> Class variables are shared data i.e same data for all objects 
+
+    -> Defined inside the call outside the method
+
+    -> Accessing ClassName.variable 
+
+    -> NOTE : We can use object to access Class variables, but not recommended
+
+    -> If we update class variable, all the objects using this variable will get updated
+
+    -> For memory efficiency 
+
+-> Class Methods
+
+    -> Methods defined inside class, that will operate on class variables
+
+    -> Not so commonly used
+
+    -> Class methods are bound to class, not objects
+
+    -> NOTE : For class methods generally we use (cls as first parameter)
+
+    -> NOTE : @classmethod decorator is used
+
+-> Class Variables + Class Methods
+
+
+
+
+
