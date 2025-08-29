@@ -1194,3 +1194,33 @@
 
     -> Variable whose scope only exist within the methods
     -> student_name,student_email as parameters are local variables
+
+
+OOPS Principals
+===============
+
+    -> Inheritance : is a concept, where a class(subclass or child) will inherit properties and methods from
+    another class(superclass or parent). 
+
+    -> Purpose : Reusability
+
+    -> Syntax
+
+        class Parent:
+            pass
+
+        class Child(Parent):
+            pass    
+
+        obj = Child()
+
+    -> Types Of Inheritance
+
+        -> Single Inheritance        
+        -> Multi Level Inheritance
+        -> Multiple Inheritance
+        -> Hierarchal Inheritance
+        -> Hybrid Inheritance
+
+        
+        
