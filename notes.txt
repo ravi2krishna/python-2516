@@ -1222,5 +1222,22 @@ OOPS Principals
         -> Hierarchal Inheritance
         -> Hybrid Inheritance
 
+
+    -> MRO : Method Resolution Order
+
+       MRO (Method Resolution Order) in Python is the order in which 
+       Python searches for a method in a class hierarchy when multiple classes 
+       are involved (especially in multiple inheritance).
+    
+        -> Rules, when you call a method on object
+            -> Python starts from the current class
+            -> Then moves left to right through base classes
+            -> Follows the MRO list of classes
+            -> Stops when it finds the first matching order 
+    
+    -> super() is used
+
+        -> call a parent class method from the child
+        -> call the parent constructor(__init__)
         
         
