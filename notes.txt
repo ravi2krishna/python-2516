@@ -1240,4 +1240,20 @@ OOPS Principals
         -> call a parent class method from the child
         -> call the parent constructor(__init__)
         
-        
+
+4th Sep 2025
+============
+
+    -> Polymorphism : Many Forms for single entity 
+
+        -> Same method, with different behaviors, depending on object calling
+    
+    -> Overriding : In python, when a sub class provides custom implementation for
+        parent class method, then this concept is called method Overriding.
+
+    -> Duck Typing :  
+        "If it walks like a duck and it quacks like a duck, then it must be a duck." 
+        -> No Inheritance is required, just methods name is enough
+
+-> Encapsulation : Binding Data and Behavior together inside a class and 
+    restricting(not very strict in python) direct access to data.
