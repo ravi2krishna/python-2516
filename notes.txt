@@ -562,7 +562,7 @@
 
 -> As we use key & values
 
-    -> Keys can be IMMUTABLES (tuples, strings, numbers)
+    -> Keys can be IMMUTABLES (tuples, strings, numbers(int & float))
     -> Values can be any object
 
     -> if we give keys as mutable, we get TypeError: unhashable type:
