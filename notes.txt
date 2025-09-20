@@ -601,8 +601,8 @@
 
 -> Set are UUU 
 
-    -> U - Unique (No Duplicates, Duplicates will be removed)
     -> U - Unorderd (Insertion Order Not Preserved)
+    -> U - Unique (No Duplicates, Duplicates will be removed)    
     -> U - Unindexed (No Index, So NO INDEXING & NO SLICING)
 
     -> SETS - used to perform Set related mathematical operations
