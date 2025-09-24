@@ -66,6 +66,12 @@ login("ravi","12345") # exact order
 login("ravi","123") # exact order
 login("12345","ravi") # order changed
 
+# Without Default Argument --> means we are using positional based
+def emp_info(emp_name,emp_email,emp_location):
+    print(f"Hi {emp_name}, your email is {emp_email} and location is {emp_location}")
+    
+emp_info("hyderabad","ravi","ravi@gmail.com")
+
 # Default Arguments 
 def emp_info(emp_name,emp_email,emp_loc="Hyderabad",address="India"):
     print(f"Hi {emp_name} your email is {emp_email} and location is {emp_loc} actually from {address}")
