@@ -689,6 +689,9 @@
 
         -> This approach allows your functions to take
             Dynamic inputs 
+
+            def function_name(param 1, param 2, ...):
+                Statements
         
     -> Based on arguments passed, we have different types of functions
 
