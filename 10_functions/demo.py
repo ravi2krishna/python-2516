@@ -136,7 +136,13 @@ def new_fun(name, **info):
 # functions without return keyword
 def add(a,b):
     a+b
-print(add(10,20))
+add(10,20)
+
+# without return
+def add(a,b):
+    a+b
+
+add(10,20)
 
 # functions with return keyword
 def add(a,b):
