@@ -144,6 +144,9 @@ def add(a,b):
 
 add(10,20)
 
+add(10,20)
+print(add(20,30)) # None
+
 # functions with return keyword
 def add(a,b):
     return a+b
